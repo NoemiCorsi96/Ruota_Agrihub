@@ -103,7 +103,7 @@ document.getElementById("spinButton").addEventListener("click", () => {
     } else {
       const selected = getSelectedIndex(rotation);
       document.getElementById("selectedQuestion").textContent =
-        `Domanda selezionata: ${questions[selected]}`;
+        `Topic selezionato: ${questions[selected]}`;
     }
   }
 
